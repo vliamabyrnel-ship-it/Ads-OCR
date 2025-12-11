@@ -27,3 +27,18 @@ The script is structured so other engineers can maintain it easily:
     - logging instead of random prints
     - graceful error handling and fallbacks
 """
+easyocr – Deep-learning OCR engine (uses CRAFT + CRNN under the hood).
+
+pytesseract – Python wrapper for Tesseract (a traditional OCR engine).
+
+opencv-python – Image pre-processing (grayscale, CLAHE, thresholding, etc.).
+
+pillow – Image conversions between formats and libraries.
+
+python-docx – Generates the Word .docx file.
+
+transformers – HuggingFace library; used for AI summarization of text.
+
+torch – Backend for transformers and easyocr models.
+
+⚠️ For pytesseract, you also need the system Tesseract OCR binary installed (next section).
